@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 )
-
+//參數１ 帶入網址
 func main() {
 	for _, url := range os.Args[1:] {
 		resp, err := http.Get(url)
